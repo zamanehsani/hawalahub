@@ -8,7 +8,7 @@ const testimonialData: Testimonial[] = [
     name: "علی بلال",
     designation: "جرمنی",
     content:
-      "کابران خیلی مهربان و عالی. حواله مرا در یک روز با قیمت عالی انجام دادند.",
+      "کاربران خیلی خوش‌ برخورد و حرفه‌ای بودن. حواله‌م را در یک روز با قیمت عالی انجام دادن.",
     image: "/images/testimonials/author-0.png",
     star: 5,
   },
@@ -17,7 +17,7 @@ const testimonialData: Testimonial[] = [
     name: "احمد خان",
     designation: "سویدن",
     content:
-      "خیلی خوش برخورد و عالی. همیشه حواله های  مرا سری وقت به فامیل میرساند. ",
+      "جوان های با استعداد و عالی بودند. همیشه حواله هایم مرا سری وقت میرسانند. ",
     image: "/images/testimonials/author-2.png",
     star: 5,
   },

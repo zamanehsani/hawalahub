@@ -20,9 +20,9 @@ const Hero = () => {
                 <p className="text-body-color dark:text-body-color-dark mb-12 text-lg leading-relaxed! md:text-xl">
                   حواله خانه با افتخار یکی از مدرن‌ ترین و حرفه‌ای ‌ترین مراکز
                   ارائه خدمات حواله در سطح بین‌المللی است. ما خدمات حواله سنتی
-                  را با نگاهی نو و با بهره‌ گیری از تیمی از جوانان متخصص و
-                  باانگیزه از سراسر دنیا، به شکلی سریع‌تر، ارزان‌ تر و
-                  قابل‌اعتمادتر ارائه می‌دهیم.
+                  را با نگاه نو و با بهره‌ گیری از جوانان متخصص و باانگیزه از
+                  سراسر دنیا، به شکلی سریع‌ تر، ارزان‌ تر و .قابل‌ اعتماد تر
+                  ارائه می‌دهیم.
                 </p>
                 <div className="flex flex-col items-center justify-center sm:flex-row sm:space-y-0 sm:space-x-4">
                   <Link
@@ -61,7 +61,7 @@ const Hero = () => {
                         clipRule="evenodd"
                       ></path>
                     </svg>
-                    تماس مستقیم
+                    ارتباط مستقیم
                   </Link>
                 </div>
               </div>
