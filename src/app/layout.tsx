@@ -15,7 +15,7 @@ const lateef = localFont({
     },
     {
       weight: "600",
-      path: "fonts/Lateef-Semibold.ttf",
+      path: "fonts/Lateef-SemiBold.ttf",
     },
   ],
 });
