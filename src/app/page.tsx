@@ -15,7 +15,6 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "حواله خانه",
   description: "بهترین همکار بین المللی انتقال پول شما",
-  // other metadata
   keywords: [
     "حواله",
     "انتقال پول",
@@ -33,8 +32,26 @@ export const metadata: Metadata = {
     locale: "fa_IR",
     url: "https://hawalahub.com",
     siteName: "حواله خانه",
+    images: [
+      {
+        url: "/text_only.png",
+        width: 1200,
+        height: 630,
+        alt: "حواله خانه",
+      },
+      {
+        url: "/favicon.ico",
+        width: 32,
+        height: 32,
+        alt: "حواله خانه آیکون",
+      },
+    ],
   },
   robots: "index, follow",
+  icons: [
+    { rel: "icon", url: "/favicon.ico" },
+    { rel: "apple-touch-icon", url: "/icon_only.png" },
+  ],
 };
 
 export default function Home() {
