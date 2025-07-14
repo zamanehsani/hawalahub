@@ -11,11 +11,11 @@ const lateef = localFont({
   src: [
     {
       weight: "400",
-      path: "./fonts/lateef-Regular.ttf",
+      path: "/fonts/lateef-Regular.ttf",
     },
     {
       weight: "600",
-      path: "./fonts/lateef-Semibold.ttf",
+      path: "/fonts/lateef-Semibold.ttf",
     },
   ],
 });
