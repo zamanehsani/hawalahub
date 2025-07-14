@@ -41,11 +41,20 @@ export default function RootLayout({
 }) {
   return (
     <html suppressHydrationWarning lang="fa" dir="rtl">
-      {/*
-      <head /> will contain the components returned by the nearest parent
-      head.js. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
-      <head />
-      */}
+      <head>
+        <script
+          type="text/javascript"
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function(c,l,a,r,i,t,y){
+                  c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+                  t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+                  y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+              })(window, document, "clarity", "script", "sewpxfvi94");
+            `,
+          }}
+        />
+      </head>
 
       <body
         className={`bg-[#FCFCFC] dark:bg-black ${tajawal.variable} ${lateef.variable}`}
